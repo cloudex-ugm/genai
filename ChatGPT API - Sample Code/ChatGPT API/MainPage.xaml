@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ChatGPT_API.MainPage">
+
+    <Grid Padding="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <ScrollView x:Name="ChatScrollView" Grid.Row="0">
+            <StackLayout x:Name="ChatStackLayout" Orientation="Vertical" Spacing="10">
+            </StackLayout>
+        </ScrollView>
+
+        <StackLayout Orientation="Horizontal" Grid.Row="1" Padding="10">
+            <Entry x:Name="UserMessageEntry" Placeholder="Type a message" HorizontalOptions="FillAndExpand" />
+            <Button x:Name="SendButton" Text="Send" Clicked="OnSendButtonClicked" />
+        </StackLayout>
+    </Grid>
+
+</ContentPage>
