@@ -1,0 +1,14 @@
+# Ignore all .DS_Store files
+.DS_Store
+
+# Ignore all .env files
+**/.env
+
+# Ignore all venv folders
+**/venv/
+
+# Ignore all __pycache__ folders
+**/.streamlit/
+
+# Ignore all secrets.toml files
+**/secrets.toml
