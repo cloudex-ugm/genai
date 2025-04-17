@@ -1,83 +1,85 @@
-# Chatbot Application Using MAUI and Azure OpenAI
+# Aplikasi Chatbot Menggunakan MAUI dan Azure OpenAI
 
-This guide provides detailed steps for integrating Azure OpenAI into a chatbot application built using MAUI (Multi-platform App UI) in Visual Studio 2022. Follow these steps to set up and deploy the chatbot application.
+Panduan ini memberikan langkah-langkah detail untuk mengintegrasikan Azure OpenAI ke dalam aplikasi chatbot yang dibangun menggunakan MAUI (Multi-platform App UI) di Visual Studio 2022. Ikuti langkah-langkah berikut untuk menyiapkan dan menerapkan aplikasi chatbot.
 
-## Prerequisites
+## Persiapan Awal
 
-Before starting, ensure that you have the following:
+Sebelum memulai, pastikan Anda memiliki:
 
-- A Visual Studio 2022 installation with MAUI support.
-- An active Azure account.
-- Basic knowledge of C# and MAUI app development.
+- Instalasi Visual Studio 2022 dengan dukungan MAUI.
+- Akun Azure yang aktif.
+- Pengetahuan dasar tentang pengembangan aplikasi C# dan MAUI.
 
-## Step-by-Step Guide
+## Panduan Langkah demi Langkah
 
-### Step 1: Go to Azure Portal
+### Langkah 1: Buka Azure Portal
 
-1. Open your browser and go to [Azure Portal](https://portal.azure.com).
+1. Buka browser Anda dan kunjungi [Azure Portal](https://portal.azure.com).
 
-### Step 2: Create Azure OpenAI Resource
+### Langkah 2: Buat Resource Azure OpenAI
 
-1. In the search bar, type **Azure OpenAI** and select **Azure OpenAI** from the available services.
-2. Click on **Create Resource** to start the process of creating a new Azure OpenAI resource.
+1. Pada kolom pencarian, ketik **Azure OpenAI** dan pilih **Azure OpenAI** dari layanan yang tersedia.
+2. Klik **Create Resource** untuk memulai pembuatan resource Azure OpenAI baru.
 
-### Step 3: Set Up Your Azure OpenAI Resource
+### Langkah 3: Atur Resource Azure OpenAI Anda
 
-1. **Resource Name**: Enter a name for your resource (e.g., `ChatbotOpenAI`).
-2. **Region**: Choose **East US 2** as the region.
-3. **Pricing Tier**: Select **Standard**.
-4. Click **Next** and then click **Create Resource**. Wait for the resource creation process to complete.
+1. **Resource Name**: Masukkan nama untuk resource Anda (misal: `ChatbotOpenAI`).
+2. **Region**: Pilih **East US 2** sebagai region.
+3. **Pricing Tier**: Pilih **Standard**.
+4. Klik **Next** lalu klik **Create Resource**. Tunggu hingga proses pembuatan resource selesai.
 
-### Step 4: Access the Azure OpenAI Resource
+### Langkah 4: Akses Resource Azure OpenAI
 
-1. After the resource is created, go to the **Resource** page for the Azure OpenAI instance you just created.
+1. Setelah resource dibuat, buka halaman **Resource** untuk instance Azure OpenAI yang baru saja dibuat.
 
-### Step 5: Explore Azure AI Foundry
+### Langkah 5: Jelajahi Azure AI Foundry
 
-1. On the Azure OpenAI resource page, click on **Explore Azure AI Foundry**.
+1. Di halaman resource Azure OpenAI, klik **Explore Azure AI Foundry**.
 
-### Step 6: Deploy GPT-3.5-Turbo Model
+### Langkah 6: Deploy Model GPT-3.5-Turbo
 
-1. In the **Model Catalog** section, locate and select **GPT-3.5-turbo**.
-2. Click **Create Resource and Deploy**. Wait until the resource creation process is finished.
+1. Pada bagian **Model Catalog**, cari dan pilih **GPT-3.5-turbo**.
+2. Klik **Create Resource and Deploy**. Tunggu sampai proses pembuatan resource selesai.
 
-### Step 7: Copy Endpoint and API Key
+### Langkah 7: Salin Endpoint dan API Key
 
-1. On the right side of the page, locate the **Endpoint** section.
-2. Copy the **Target URI** (this will be the endpoint URL).
-3. Copy the **API Key** provided by Azure OpenAI.
+1. Di sisi kanan halaman, cari bagian **Endpoint**.
+2. Salin **Target URI** (ini adalah URL endpoint).
+3. Salin **API Key** yang diberikan oleh Azure OpenAI.
 
-### Step 8: Open Your MAUI Project in Visual Studio
+### Langkah 8: Buka Proyek MAUI Anda di Visual Studio
 
-1. Open **Visual Studio 2022** and load your **ChatGPT API.sln** project.
+1. Buka **Visual Studio 2022** dan muat proyek Anda yaitu **ChatGPT API.sln**.
 
-### Step 9: Configure API Key and Endpoint in Code
+### Langkah 9: Konfigurasikan API Key dan Endpoint di Kode
 
-1. In the **MainPage.xaml.cs** file, locate the section where the API key and endpoint are defined:
-
-   ```csharp
-   string apiKey = "<YOUR API KEY HERE>";  // Change with your API Key
-   string endpoint = "https://your-endpoint.cognitiveservices.azure.com/";  // Change with your Endpoint
-   ```
-
-2. Replace the placeholder **<YOUR API KEY HERE>** with the API key you copied from the Azure portal.
-3. Modify the endpoint URL, ensuring you only change the **subdomain** part (e.g., `your-endpoint`):
+1. Pada file **MainPage.xaml.cs**, cari bagian tempat API key dan endpoint didefinisikan:
 
    ```csharp
-   string apiKey = "your-api-key";  // Paste your actual API Key here
-   string endpoint = "https://your-endpoint.cognitiveservices.azure.com/";  // Replace subdomain
+   string apiKey = "<YOUR API KEY HERE>";  // Ganti dengan API Key Anda
+   string endpoint = "https://your-endpoint.cognitiveservices.azure.com/";  // Ganti dengan Endpoint Anda
    ```
 
-### Step 10: Run the Project
+2. Ganti placeholder **<YOUR API KEY HERE>** dengan API key yang sudah Anda salin dari portal Azure.
+3. Ubah URL endpoint, pastikan yang diubah hanya bagian **subdomain** (misalnya `your-endpoint`):
 
-1. After saving your changes, click **Run** in Visual Studio to build and launch the project.
-2. Wait until the build process completes, and the application will be ready to interact with the Azure OpenAI model.
+   ```csharp
+   string apiKey = "your-api-key";  // Tempel API Key asli Anda di sini
+   string endpoint = "https://your-endpoint.cognitiveservices.azure.com/";  // Ganti subdomain
+   ```
 
-### Step 11: Test Your Chatbot
+### Langkah 10: Jalankan Proyek
 
-1. Once the app runs successfully, you can start interacting with your chatbot powered by GPT-3.5-turbo.
-2. Enter your queries, and the chatbot will generate responses using the Azure OpenAI API.
+1. Setelah menyimpan perubahan, klik **Run** di Visual Studio untuk membangun dan menjalankan proyek.
+2. Tunggu sampai proses build selesai, aplikasi akan siap digunakan untuk berinteraksi dengan model Azure OpenAI.
 
-## Conclusion
+### Langkah 11: Uji Chatbot Anda
 
-Congratulations! You've successfully integrated Azure OpenAI into a MAUI-based chatbot application. You can now extend and enhance the chatbot's functionality, adding more features such as custom intents, better error handling, and more sophisticated user interactions.
+1. Setelah aplikasi berjalan dengan sukses, Anda bisa mulai berinteraksi dengan chatbot yang didukung oleh GPT-3.5-turbo.
+2. Masukkan pertanyaan Anda, dan chatbot akan memberikan jawaban menggunakan API Azure OpenAI.
+
+## Kesimpulan
+
+Selamat! Anda telah berhasil mengintegrasikan Azure OpenAI ke dalam aplikasi chatbot berbasis MAUI. Sekarang Anda bisa mengembangkan dan menambah kemampuan chatbot, seperti menambahkan intent khusus, peningkatan penanganan error, dan interaksi pengguna yang lebih kompleks.
+
+---
