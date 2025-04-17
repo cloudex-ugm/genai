@@ -1,71 +1,73 @@
-# Creating AI Agents with AI Foundry
+# Membuat Agen AI dengan AI Foundry
 
-This guide will walk you through the process of creating an AI agent using AI Foundry on Azure. Follow the steps below to set up your agent and test it using Azure's platform.
+Panduan ini akan memandu Anda melalui proses pembuatan agen AI menggunakan AI Foundry di Azure. Ikuti langkah-langkah di bawah ini untuk menyiapkan agen Anda dan mengujinya menggunakan platform Azure.
 
-## Prerequisites
+## Persiapan Awal
 
-Before starting, ensure you have the following:
+Sebelum memulai, pastikan Anda memiliki hal-hal berikut:
 
-- An Azure account with Subscriptions (this comprehensive steps also works for Azure Student Subscriptions).
+- Akun Azure dengan Subscription (langkah-langkah ini juga berlaku untuk Subscription Azure Student).
 
-## Step-by-Step Guide
+## Panduan Langkah demi Langkah
 
-### Step 1: Go to Azure AI Foundry
+### Langkah 1: Buka Azure AI Foundry
 
-1. Visit the [AI Foundry](https://ai.azure.com/) website.
+1. Kunjungi website [AI Foundry](https://ai.azure.com/).
 
-### Step 2: Create a New Project
+### Langkah 2: Buat Proyek Baru
 
-1. Click **Create Project**.
-2. Enter a **Project Name** and select the **Hub** that you want to associate with the project.
-   - If you haven't created a hub before, click **Create New Hub**.
-3. Wait for the process to complete and your resources to be created.
+1. Klik **Create Project**.
+2. Masukkan **Nama Proyek** dan pilih **Hub** yang ingin Anda kaitkan dengan proyek tersebut.
+   - Jika Anda belum pernah membuat hub, klik **Create New Hub**.
+3. Tunggu hingga proses selesai dan sumber daya Anda dibuat.
 
-### Step 3: Navigate to the Agents Page
+### Langkah 3: Masuk ke Halaman Agen
 
-1. On the left sidebar, locate and click on **Agents**.
+1. Pada sidebar kiri, cari dan klik **Agents**.
 
-### Step 4: Select a Resource and Start an Agent
+### Langkah 4: Pilih Resource dan Mulai Agen
 
-1. Choose the appropriate **Resource** for your agent.
-2. Click **Let’s Go** to proceed.
+1. Pilih **Resource** yang sesuai untuk agen Anda.
+2. Klik **Let’s Go** untuk melanjutkan.
 
-### Step 5: Create a New Agent
+### Langkah 5: Buat Agen Baru
 
-1. If you don’t already have an agent, click the **New Agent** button to create one.
+1. Jika Anda belum memiliki agen, klik tombol **New Agent** untuk membuat agen baru.
 
-### Step 6: Choose a Model for Deployment
+### Langkah 6: Pilih Model untuk Deployment
 
-1. Select the model you wish to deploy. You can choose between **GPT-4** and **GPT-3.5-turbo**.
-   - Make sure there is enough quota available for the model you choose.
+1. Pilih model yang ingin Anda gunakan. Anda bisa memilih antara **GPT-4** dan **GPT-3.5-turbo**.
+   - Pastikan kuota untuk model yang dipilih tersedia cukup.
 
-### Step 7: Set the Deployment Type
+### Langkah 7: Atur Jenis Deployment
 
-1. In the **Deployment Type** section, select either **Standard** or **Global Standard**.
+1. Pada bagian **Deployment Type**, pilih antara **Standard** atau **Global Standard**.
 
-### Step 8: Deploy the Agent
+### Langkah 8: Deploy Agen
 
-1. Click **Deploy** and wait for the deployment process to complete.
+1. Klik **Deploy** dan tunggu proses deployment selesai.
 
-### Step 9: Configure the Agent
+### Langkah 9: Konfigurasi Agen
 
-1. After the deployment is complete, go back to the **Agents** page.
-2. Select the agent you just created to open its configuration settings.
+1. Setelah deployment selesai, kembali ke halaman **Agents**.
+2. Pilih agen yang baru dibuat untuk membuka pengaturan konfigurasinya.
 
-### Step 10: Configure Your Agent
+### Langkah 10: Atur Agen Anda
 
-1. In the agent’s configuration page, you can customize the following:
-   - **Model**: Choose the model you are using (e.g., GPT-4 or GPT-3.5-turbo).
-   - **Instructions**: Set up specific instructions for your agent.
-   - **Knowledge**: Add any additional knowledge or data that the agent can use.
-   - **Tools**: Integrate available tools to extend the agent’s functionality.
-   - **Model Tuning**: Adjust settings to fine-tune the model's behavior.
+1. Pada halaman konfigurasi agen, Anda bisa menyesuaikan hal-hal berikut:
+   - **Model**: Pilih model yang Anda gunakan (misalnya, GPT-4 atau GPT-3.5-turbo).
+   - **Instruksi**: Atur instruksi khusus untuk agen Anda.
+   - **Pengetahuan**: Tambahkan pengetahuan atau data tambahan yang dapat digunakan agen.
+   - **Alat (Tools)**: Integrasikan alat-alat yang tersedia untuk memperluas fungsi agen.
+   - **Model Tuning**: Sesuaikan pengaturan untuk mengoptimalkan perilaku model.
 
-### Step 11: Test the Agent
+### Langkah 11: Uji Agen
 
-1. To test your newly created agent, click on the **Try in Playground** button.
-   - This will open the playground where you can interact with your agent and test its responses.
+1. Untuk menguji agen yang baru dibuat, klik tombol **Try in Playground**.
+   - Ini akan membuka playground tempat Anda bisa berinteraksi dan menguji respons agen.
 
-## Conclusion
+## Kesimpulan
 
-Congratulations! You've successfully created and configured an AI agent using AI Foundry on Azure. You can now customize, deploy, and test your agent according to your project’s needs. Don't forget to explore different settings and tools to enhance your agent’s functionality.
+Selamat! Anda telah berhasil membuat dan mengonfigurasi agen AI menggunakan AI Foundry di Azure. Sekarang Anda bisa menyesuaikan, menerapkan, dan menguji agen sesuai kebutuhan proyek Anda. Jangan lupa untuk bereksperimen dengan berbagai pengaturan dan alat untuk meningkatkan fungsi agen Anda.
+
+---
