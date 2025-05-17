@@ -1,6 +1,6 @@
 # 🎙️👄 **Azure AI Services** - <span style="background: linear-gradient(to right, #5DC4F7, #FF87E1); -webkit-background-clip: text; color: transparent;">Membuat Web dengan Azure AI Text-to-Speech</span>
 
-Relevan (April 2025)
+Relevan April 2025
 
 <!-- ![alt text](img/image.png) -->
 <img src="img/cover.png" alt="alt text" height="400px">
@@ -11,7 +11,7 @@ Membuat aplikasi web menggunakan Streamlit yang terintegrasi dengan Azure AI Ser
 
 # 🛠️ Prasyarat
 
-**‼️ Sebelum mulai, pastikan kamu punya:**
+**‼️ Sebelum mulai, pastikan Anda punya:**
 1. **Azure Subscription** – Bisa daftar di https://azure.microsoft.com/free
 2. **Python 3.8** atau lebih baru
 3. **Visual Studio Code** - (opsional)
@@ -62,7 +62,7 @@ Membuat aplikasi web menggunakan Streamlit yang terintegrasi dengan Azure AI Ser
 
 - ### <span style="color:#E8BEE6">Tunggu Proses Deployment ⏳
     - Tunggu sekitar 1–3 menit hingga proses deployment selesai.
-    - Setelah selesai, klik <span style="color:#FF87E1">**Go to Resource**</span> untuk masuk ke halaman resource Azure OpenAI kamu.
+    - Setelah selesai, klik <span style="color:#FF87E1">**Go to Resource**</span> untuk masuk ke halaman resource Azure OpenAI Anda.
 
         <img src="img/4.png" alt="alt text" height="300px">
 

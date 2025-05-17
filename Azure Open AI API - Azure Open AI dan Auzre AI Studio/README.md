@@ -1,6 +1,6 @@
 # 🤖 **Azure Open AI API** - <span style="background: linear-gradient(to right, #5DC4F7, #FF87E1); -webkit-background-clip: text; color: transparent;">Aplikasi AI dengan Azure Open AI & Azure AI Studio</span>
 
-Relevan (April 2025)
+Relevan April 2025
 
 <img src="img/image.png" alt="alt text" height="400px">
 
@@ -10,7 +10,7 @@ Membuat aplikasi AI (misalnya chatbot atau teks generator) menggunakan layanan A
 
 # 🛠️ Prasyarat
 
-**‼️ Sebelum mulai, pastikan kamu punya:**
+**‼️ Sebelum mulai, pastikan Anda punya:**
 1. **Azure Subscription** – Bisa daftar di https://azure.microsoft.com/free
 2. **Akses ke Azure OpenAI** (harus disetujui terlebih dahulu)
 3. **Azure AI Studio** – tersedia dari portal Azure (https://ai.azure.com/)
@@ -56,7 +56,7 @@ Membuat aplikasi AI (misalnya chatbot atau teks generator) menggunakan layanan A
 
 - ### <span style="color:#E8BEE6">Tunggu Proses Deployment ⏳
     - Tunggu sekitar 1–3 menit hingga proses deployment selesai.
-	- Setelah selesai, klik <span style="color:#FF87E1">**Go to Resource**</span> untuk masuk ke halaman resource Azure OpenAI kamu.
+	- Setelah selesai, klik <span style="color:#FF87E1">**Go to Resource**</span> untuk masuk ke halaman resource Azure OpenAI Anda.
 
         <img src="img/4.png" alt="alt text" height="300px">
 
@@ -75,8 +75,8 @@ Berikut langkah-langkahnya:
 
 - ### <span style="color:#E8BEE6">Buka Azure AI Studio
     - Akses: **https://ai.azure.com**
-    - Login dengan akun Microsoft kamu (sama dengan akun Azure tadi).
-    - Setelah masuk, kamu akan melihat tampilan Azure AI Studio.
+    - Login dengan akun Microsoft Anda (sama dengan akun Azure tadi).
+    - Setelah masuk, Anda akan melihat tampilan Azure AI Studio.
 
         <img src="img/5.png" alt="alt text" height="300px">
 
@@ -111,7 +111,7 @@ Berikut langkah-langkahnya:
         <img src="img/9.png" alt="alt text" height="300px">
     - Masukkan contoh prompt berikut pada <span style="color:#FF87E1">**Give the model instructions and context**</span>:
         ```bash
-        Kamu adalah guru matematika yang sabar dan menjelaskan konsep dengan sederhana.    
+        Anda adalah guru matematika yang sabar dan menjelaskan konsep dengan sederhana.    
     - Lalu klik 💾 <span style="color:#FF87E1">**Apply Changes**</span>.
     
     - Masukkan contoh user query berikut pada <span style="color:#FF87E1">**User Query**</span>:

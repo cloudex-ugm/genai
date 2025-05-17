@@ -1,5 +1,7 @@
 # Aplikasi Chatbot Menggunakan MAUI dan Azure OpenAI
 
+Relevan April 2025
+
 Panduan ini memberikan langkah-langkah detail untuk mengintegrasikan Azure OpenAI ke dalam aplikasi chatbot yang dibangun menggunakan MAUI (Multi-platform App UI) di Visual Studio 2022. Ikuti langkah-langkah berikut untuk menyiapkan dan menerapkan aplikasi chatbot.
 
 ## Persiapan Awal

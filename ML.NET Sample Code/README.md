@@ -1,5 +1,7 @@
 # Proyek Prediksi Harga Rumah dengan ML.NET
 
+Relevan April 2025
+
 Proyek ini menggunakan **ML.NET** untuk memprediksi harga rumah berdasarkan berbagai fitur seperti luas, jumlah kamar tidur, kamar mandi, dan lain-lain. Panduan langkah demi langkah berikut akan membantu Anda mempersiapkan dan menjalankan proyek ini di **Visual Studio**.
 
 ## Persyaratan

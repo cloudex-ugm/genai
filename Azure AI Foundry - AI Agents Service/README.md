@@ -1,5 +1,7 @@
 # Membuat Agen AI dengan AI Foundry
 
+Relevan April 2025
+
 Panduan ini akan memandu Anda melalui proses pembuatan agen AI menggunakan AI Foundry di Azure. Ikuti langkah-langkah di bawah ini untuk menyiapkan agen Anda dan mengujinya menggunakan platform Azure.
 
 ## Persiapan Awal

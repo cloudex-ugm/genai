@@ -1,6 +1,6 @@
 # 🦜 **AI Toolkit** - <span style="background: linear-gradient(to right,rgb(252, 142, 79), #FF87E1); -webkit-background-clip: text; color: transparent;">Tutorial Fine-Tuning Model Bahasa</span>
 
-Relevan (April 2025)
+Relevan April 2025
 
 <img src="img_readme/image.png" alt="alt text" height="400px">
 
@@ -12,7 +12,7 @@ Tutorial ini akan memandu Anda melalui proses fine-tuning model bahasa DistilBER
 ### 1. **Pengetahuan Dasar**
 - Pemahaman dasar Python (variabel, fungsi, class)
 - Konsep machine learning sederhana (training, evaluation)
-- Familiar dengan Jupyter Notebook (opsional tapi direkomendasikan)
+- Familiar dengan Jupyter Notebook (opsional tetapi direkomendasikan)
 
 ### 2. **Spesifikasi Sistem**
 | Komponen | Persyaratan Minimal | Rekomendasi |
