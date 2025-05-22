@@ -1,4 +1,4 @@
-# 🎙️👄 **Azure AI Services** - <span style="background: linear-gradient(to right, #5DC4F7, #FF87E1); -webkit-background-clip: text; color: transparent;">Membuat Web dengan Azure AI Text-to-Speech</span>
+# 🎙️👄 **Azure AI Services** - <span style="background: linear-gradient(to right, #5DC4F7, #FF87E1); -webkit-background-clip: text; color: transparent;">Membuat Web dengan Azure AI Speech-to-Text</span>
 
 Relevan April 2025
 
